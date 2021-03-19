@@ -23,7 +23,7 @@ LODASH
     2. [深拷贝](./cloneDeep.js)
     3. [包含](./includes.js)
     4. [单次执行函数](./once.js)
-    5. [对象裁剪](./omit_pick.js)
-    6. [深比较](https://www.lodashjs.com/docs/lodash.isEqual)
+    5. [深比较](https://www.lodashjs.com/docs/lodash.isEqual)
+    6. [对象裁剪](./omit_pick.js)
     7. [挑选&剔除](./filter_reject.js)
 
