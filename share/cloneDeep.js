@@ -1,3 +1,4 @@
+// 组件传参
 const _ = require('lodash');
 // 常见写法
 const normalSource = {
@@ -10,7 +11,7 @@ const lodashSource = {
   name: { first: "胡", last: "晓峰" },
   say: () => console.log("hi"),
 };
-const desObj = {...normalSource};
+const desObj = { ...normalSource };
 const parsObj = JSON.parse(JSON.stringify(normalSource))
 
 
@@ -28,7 +29,7 @@ console.log("lodashObj", lodashObj);
  *  1. 丢失方法
  *  2. 失去ts提示
 */
-desObj.name.first='hu';
+desObj.name.first = 'hu';
 lodashObj.name.first = "hu";
 
 console.log("normalSource", normalSource);
